@@ -19,6 +19,23 @@ $model->allowedAppends([
 'secondAttribute',
 ]);
 ```
+### Make attributes visible to a query: `/?visible=first_attribute,second_attribute`
+
+```php
+$model->allowedVisible([
+'firstAttribute',
+'secondAttribute',
+]);
+```
+
+### Make attributes hidden to a query: `/?hidden=first_attribute,second_attribute`
+
+```php
+$model->allowedHidden([
+'firstAttribute',
+'secondAttribute',
+]);
+```
 
 ### Security
 
