@@ -5,7 +5,7 @@ Load relations and append attributes from request query
 ### Including relations based on a request: `/?include=first_relation,second_relation`:
 
 ```php
-$model->allowLoads([
+$model->allowedLoads([
 'firstRelation',
 'secondRelation',
 ]);
@@ -14,7 +14,7 @@ $model->allowLoads([
 ### Appending attributes to a query: `/?append=first_attribute,second_attribute`
 
 ```php
-$model->allowAppends([
+$model->allowedAppends([
 'firstAttribute',
 'secondAttribute',
 ```
