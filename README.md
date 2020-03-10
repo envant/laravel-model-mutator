@@ -67,3 +67,6 @@ If you discover any security related issues, please email davidnadejdin@gmail.co
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Related packages
+- [spatie/laravel-query-builder](https://github.com/spatie/laravel-query-builder) Easily build Eloquent queries from API requests.
