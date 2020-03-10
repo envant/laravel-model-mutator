@@ -1,6 +1,20 @@
 # laravel-model-mutator
+![Packagist](https://img.shields.io/packagist/dt/envant/laravel-model-mutator)
+![GitHub](https://img.shields.io/github/license/envant/laravel-model-mutator)
+
 Load relations and append attributes from request query
+
+## Installation
+
+Install package through Composer
+
+``` bash
+$ composer require envant/laravel-model-mutator
+```
+
 ## Basic usage
+
+Add `Envant\ModelMutator\AllowedQueryMutationsTrait` trait to your model
 
 ### Including relations based on a request: `/?include=first_relation,second_relation`:
 
