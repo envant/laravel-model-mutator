@@ -11,6 +11,15 @@ $model->allowedLoads([
 ]);
 ```
 
+### Count relations based on a request: `/?count=first_relation,second_relation`:
+
+```php
+$model->allowedCounts([
+'firstRelation',
+'secondRelation',
+]);
+```
+
 ### Appending attributes to a query: `/?append=first_attribute,second_attribute`
 
 ```php

@@ -10,4 +10,5 @@ trait AllowedQueryMutationsTrait
     use AllowedHiddenTrait;
     use AllowedIncludesTrait;
     use AllowedVisibleTrait;
+    use AllowedCountsTrait;
 }
