@@ -17,6 +17,7 @@ $model->allowedLoads([
 $model->allowedAppends([
 'firstAttribute',
 'secondAttribute',
+]);
 ```
 
 ### Security
