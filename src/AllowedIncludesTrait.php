@@ -4,9 +4,9 @@ namespace Envant\ModelMutator;
 
 use Illuminate\Support\Facades\Request;
 
-trait AllowedLoadsTrait
+trait AllowedIncludesTrait
 {
-    public function allowedLoads($relations)
+    public function allowedIncludes($relations)
     {
         $this->loadMissing(array_intersect(explode(',', Request::get('include')), $relations));
 
