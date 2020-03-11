@@ -1,5 +1,6 @@
 # laravel-model-mutator
 ![Packagist](https://img.shields.io/packagist/dt/envant/laravel-model-mutator)
+[![StyleCI](https://styleci.io/repos/246364647/shield?style=flat)](https://styleci.io/repos/246364647)
 ![GitHub](https://img.shields.io/github/license/envant/laravel-model-mutator)
 
 Load relations and append attributes from request query
