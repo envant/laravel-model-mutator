@@ -26,7 +26,7 @@ $model->allowedLoads([
 ]);
 ```
 
-### Count relations based on a request: `/?count=first_relation,second_relation`:
+### Count relations based on a request: `/?counts=first_relation,second_relation`:
 
 ```php
 $model->allowedCounts([

@@ -8,7 +8,7 @@ trait AllowedCountsTrait
 {
     public function allowedCounts($relationsForCount)
     {
-        $this->loadMissing(array_intersect(explode(',', Request::get('counts')), $relationsForCount));
+        $this->loadCount(array_intersect(explode(',', Request::get('counts')), $relationsForCount));
 
         return $this;
     }
